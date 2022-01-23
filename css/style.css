@@ -1,0 +1,151 @@
+.hidden{
+    display: none;
+}
+body {
+  height: 900px;
+  margin: 0;
+}
+#section-first{
+    height: 30%; 
+    background: fixed;
+}
+#section-todolist{
+    float: left;
+    width:  50%;
+    height: 70%;
+}
+#section-last{
+    float: left;
+    width: 50%;
+    height: 70%;
+
+}
+
+#login-form{
+    margin: 0;
+    font-size: 6em;
+    left: 100px;
+    top: 50px;
+    position: absolute;
+    animation: slide 1s ;
+    color: blanchedalmond;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+#login-form input{
+    width: 200px;
+    height: 30px;
+}
+
+#todo-form{
+    padding-left: 40px;
+}
+#todo-formmk2{
+    padding-left: 40px;
+}
+input {
+    width: 100px;
+    height: 30px;
+    font-size: 15px;
+    border: 0;
+    border-radius: 15px;
+    outline: none;
+    padding-left: 10px;
+    background-color: rgb(255, 255, 255);
+}
+button{
+    float: right;
+    width: 40px;
+    height: 40px;
+    font-size: 15px;
+    border: 0;
+    border-radius: 30px;
+    outline: none;
+    padding-left: 6px;
+    background-color: rgb(233, 233, 233);
+    font-size: 100%;
+    font-weight: 800;
+    margin-right: 5px;
+}
+button:hover{
+    background-color: black
+}
+
+ul {
+    list-style: none;
+}
+li {
+    width: 500px;
+    height: 40px; 
+    margin: 0 0 7px 0;
+    border-left: 5px solid ;
+    background-color: rgb(255, 255, 255);
+    font-size: 25px;
+}
+li span{
+    padding-left: 20px;
+}
+h1{
+    margin: 0;
+    font-size: 6em;
+    left: 100px;
+    top: 50px;
+    position: absolute;
+    animation: slide 1s ;
+    color: blanchedalmond;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+h2{
+    margin: 0;
+}
+
+h3{
+    margin: 0;
+    font-size: 6em;
+    left: 100px;
+    top: 50px;
+    animation: slide 1s ;
+    color: blanchedalmond;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    padding-left: 40px;
+}
+h4{
+    margin: 0;
+    font-size: 6em;
+    left: 100px;
+    top: 50px;
+    animation: slide 1s ;
+    color: blanchedalmond;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    padding-left: 40px;
+}
+
+@keyframes slide {
+    from{
+        left: -600px;
+    }to{
+        left: 100px;
+    }
+}
+@keyframes disappear{
+    from{
+        left: 100px;
+    }to{
+        left: -600px;
+    }
+}
+#clock p{
+    float: right;
+    color: blanchedalmond;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    margin: 0;
+    font-size: 25px;
+    
+}
+#weathers span{
+    float: right;
+    color: blanchedalmond;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; 
+    font-size: 20px;
+    margin: 0;
+}
